@@ -1,0 +1,56 @@
+:root {
+  /* ── Backgrounds & Surfaces ───────────────────────────────────── */
+  --color-bg: #0f1117;
+  --color-surface: #1a1d27;
+  --color-surface-hover: #222536;
+  --color-border: #2d3148;
+
+  /* ── Text ─────────────────────────────────────────────────────── */
+  --color-text: #e8eaf0;
+  --color-text-muted: #8b90a8;
+
+  /* ── Brand / Accent ───────────────────────────────────────────── */
+  --color-primary: #4f8ef7;
+  --color-primary-hover: #3d7ae5;
+
+  /* ── Semantic ─────────────────────────────────────────────────── */
+  --color-success: #4ade80;
+  --color-warning: #fbbf24;
+  --color-danger: #f87171;
+  --color-purple: #a78bfa;
+  --color-teal: #2dd4bf;
+
+  /* ── Typography ───────────────────────────────────────────────── */
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Cascadia Code', 'Fira Code', 'Courier New', monospace;
+
+  /* ── Border Radius ────────────────────────────────────────────── */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+
+  /* ── Shadows ──────────────────────────────────────────────────── */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+
+  /* ── Spacing Scale ────────────────────────────────────────────── */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  /* ── Layout ───────────────────────────────────────────────────── */
+  --sidebar-width: 260px;
+  --evidence-width: 320px;
+
+  /* ── Evidence / Memory Theme Colors ──────────────────────────── */
+  --color-evidence-bg: rgba(45, 212, 191, 0.06);
+  --color-evidence-border: rgba(45, 212, 191, 0.25);
+  --color-memory-bg: rgba(167, 139, 250, 0.06);
+  --color-memory-border: rgba(167, 139, 250, 0.25);
+}

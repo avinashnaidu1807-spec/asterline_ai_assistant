@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+.pytest_cache/
+*.log
+backend/*.log
+frontend/*.log
+
+# Generated Databases (auto-created on startup from corpus.jsonl)
+*.db
+*.sqlite3
+data/chroma_db/
+backend/data/chroma_db/
+backend/data/*.db
+
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment secrets (keep .env.example)
+.env
+*.env
+backend/.env
+
+# OS
+.DS_Store
+Thumbs.db

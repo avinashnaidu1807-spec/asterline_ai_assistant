@@ -1,0 +1,111 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--color-bg, #0d0e12);
+  color: var(--color-text-primary, #f0f6fc);
+  padding: 24px 32px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.backLink {
+  color: #818cf8;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 900px;
+}
+
+.card {
+  background: #171922;
+  border: 1px solid #292d3a;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+  color: #f1f5f9;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.statItem {
+  background: #12141a;
+  border: 1px solid #242834;
+  border-radius: 8px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.statLabel {
+  font-size: 12px;
+  color: #8b949e;
+}
+
+.statValue {
+  font-size: 13px;
+  font-weight: 500;
+  color: #e2e8f0;
+}
+
+.statGreen {
+  color: #34d399;
+}
+
+.userBox p {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+}
+
+.securityNote {
+  font-size: 12px;
+  color: #94a3b8;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 8px 12px;
+  border-radius: 6px;
+  border-left: 2px solid #6366f1;
+}
+
+.kbDesc {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #cbd5e1;
+  margin: 0;
+}
+
+.errorText {
+  color: #f87171;
+  font-size: 13px;
+}
+

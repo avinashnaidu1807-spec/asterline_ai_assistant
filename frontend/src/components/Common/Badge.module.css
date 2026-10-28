@@ -1,0 +1,40 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  line-height: 1.6;
+}
+
+/* ── Base variants ──────────────────────────── */
+.primary      { background: rgba(79,142,247,0.15); color: var(--color-primary); border: 1px solid rgba(79,142,247,0.3); }
+.success      { background: rgba(74,222,128,0.12); color: var(--color-success); border: 1px solid rgba(74,222,128,0.3); }
+.warning      { background: rgba(251,191,36,0.12); color: var(--color-warning); border: 1px solid rgba(251,191,36,0.3); }
+.danger       { background: rgba(248,113,113,0.12); color: var(--color-danger); border: 1px solid rgba(248,113,113,0.3); }
+.purple       { background: rgba(167,139,250,0.12); color: var(--color-purple); border: 1px solid rgba(167,139,250,0.3); }
+.teal         { background: rgba(45,212,191,0.12);  color: var(--color-teal);   border: 1px solid rgba(45,212,191,0.3); }
+.muted        { background: rgba(139,144,168,0.12); color: var(--color-text-muted); border: 1px solid var(--color-border); }
+
+/* ── Confidence ─────────────────────────────── */
+.confidence_high   { background: rgba(74,222,128,0.12); color: var(--color-success); border: 1px solid rgba(74,222,128,0.3); }
+.confidence_medium { background: rgba(251,191,36,0.12); color: var(--color-warning); border: 1px solid rgba(251,191,36,0.3); }
+.confidence_low    { background: rgba(248,113,113,0.12); color: var(--color-danger); border: 1px solid rgba(248,113,113,0.3); }
+.confidence_none   { background: rgba(139,144,168,0.12); color: var(--color-text-muted); border: 1px solid var(--color-border); }
+
+/* ── Verification ───────────────────────────── */
+.verified   { background: rgba(74,222,128,0.12); color: var(--color-success); border: 1px solid rgba(74,222,128,0.3); }
+.conflict   { background: rgba(251,191,36,0.12); color: var(--color-warning); border: 1px solid rgba(251,191,36,0.3); }
+.unverified { background: rgba(139,144,168,0.12); color: var(--color-text-muted); border: 1px solid var(--color-border); }
+
+/* ── Memory Categories ──────────────────────── */
+.preferences            { background: rgba(79,142,247,0.12);  color: #7ab3ff; border: 1px solid rgba(79,142,247,0.3); }
+.user_context           { background: rgba(45,212,191,0.10);  color: var(--color-teal); border: 1px solid rgba(45,212,191,0.25); }
+.active_projects        { background: rgba(167,139,250,0.12); color: var(--color-purple); border: 1px solid rgba(167,139,250,0.3); }
+.decisions              { background: rgba(251,191,36,0.12);  color: var(--color-warning); border: 1px solid rgba(251,191,36,0.3); }
+.conversation_summaries { background: rgba(139,144,168,0.12); color: var(--color-text-muted); border: 1px solid var(--color-border); }
